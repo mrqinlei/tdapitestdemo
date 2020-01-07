@@ -1,3 +1,4 @@
+#coding=utf-8
 from BeautifulReport import BeautifulReport
 import unittest
 import os

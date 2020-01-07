@@ -1,6 +1,7 @@
 # -*- coding : utf-8 -*-
 #@Time : 2020/01/07 14:33
 #Auther :QIN
+#coding=utf-8
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
