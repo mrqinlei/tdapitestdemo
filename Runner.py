@@ -30,7 +30,7 @@ class BaseFlow:
         # unittest.TextTestRunner().run((suite))
         runner = BeautifulReport(suite)
         runner.report(description=desc, filename=report_title, report_dir=report_path)
-        self.send_mail.send_mail()
+        #self.send_mail.send_mail()
 
 
 
