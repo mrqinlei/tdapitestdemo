@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5b947c9-9cfb-42d9-9a84-0c87935112f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sendmail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sendmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sendmail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/用例报告2020-01-06 17:20:54.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +27,7 @@
   <component name="ProjectId" id="1W0tgvUkNRngTB4Ma7p1VHKtzhs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -54,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testdemo">
+  <component name="RunManager" selected="Python.Runner">
     <configuration name="Runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tdapi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,8 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testdemo" />
         <item itemvalue="Python.Runner" />
+        <item itemvalue="Python.testdemo" />
         <item itemvalue="Python tests.Unittests in demo.py" />
         <item itemvalue="Python.apitest" />
       </list>
@@ -156,8 +158,16 @@
       <option name="presentableId" value="Default" />
       <updated>1578298454924</updated>
       <workItem from="1578298456075" duration="10048000" />
-      <workItem from="1578366033770" duration="2740000" />
+      <workItem from="1578366033770" duration="5200000" />
     </task>
+    <task id="LOCAL-00001" summary="add sendmail">
+      <created>1578378526413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578378526413</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,10 +186,14 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add sendmail" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sendmail" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tdapi$testdemo.coverage" NAME="testdemo Coverage Results" MODIFIED="1578364511010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdapi$testdemo.coverage" NAME="testdemo Coverage Results" MODIFIED="1578378928146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdapi$apitest.coverage" NAME="apitest Coverage Results" MODIFIED="1578300891302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tdapi$Runner.coverage" NAME="Runner Coverage Results" MODIFIED="1578302454361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdapi$Runner.coverage" NAME="Runner Coverage Results" MODIFIED="1578381026591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdapi$Unittests_in_demo_py.coverage" NAME="Unittests in demo.py Coverage Results" MODIFIED="1578301062007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

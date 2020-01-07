@@ -1,11 +1,11 @@
 # -*- coding : utf-8 -*-
-#@Time : 2019/11/07 11:09
+#@Time : 2020/01/07 14:33
 #Auther :QIN
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
-import time
+import time,os
 
 class SendEmail:
 
@@ -26,8 +26,10 @@ class SendEmail:
         msg.attach(part)
 
         # ---附件部分---
-        now = time.strftime("%Y-%m-%d %H-%M", time.localtime())
-        filename = "/Users/dev/Documents/interface_demo01/report/" + now + '-report.html'
+        now = time.strftime("%Y-%m-%d %H:%M", time.localtime())
+        #filename = "/Users/dev/Documents/interface_demo01/report/" + now + '-report.html'
+        filename = os.getcwd() + '/report/' + '用例报告' + now + ".html"
+
         part = MIMEApplication(open(filename, 'rb').read(), encoding="utf-8")
         print(filename)
         part.add_header('Content-Disposition', 'attachment', filename="Result.html")
