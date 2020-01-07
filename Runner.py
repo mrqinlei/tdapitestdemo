@@ -15,7 +15,7 @@ class BaseFlow:
         now = time.strftime("%Y-%m-%d %H:%M", time.localtime(time.time()))
 
         # 报告地址&名称
-        report_title = '用例报告' + now + ".html"     # 如果不能打开这个文件，可能是now的格式，不支持：和空格
+        report_title = 'AutoTestReport' + now + ".html"     # 如果不能打开这个文件，可能是now的格式，不支持：和空格
 
         report_path = os.getcwd() + '/report/'
         print(report_path)

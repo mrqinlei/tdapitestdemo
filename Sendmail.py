@@ -29,7 +29,7 @@ class SendEmail:
         # ---附件部分---
         now = time.strftime("%Y-%m-%d %H:%M", time.localtime())
         #filename = "/Users/dev/Documents/interface_demo01/report/" + now + '-report.html'
-        filename = os.getcwd() + '/report/' + '用例报告' + now + ".html"
+        filename = os.getcwd() + '/report/' + 'AutoTestReport' + now + ".html"
 
         part = MIMEApplication(open(filename, 'rb').read(), encoding="utf-8")
         print(filename)
