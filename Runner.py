@@ -1,10 +1,9 @@
 from BeautifulReport import BeautifulReport
 import unittest
 import os
-from apitest import RunMain
 import time
 from demo import TestRun
-
+from Sendmail import SendEmail
 
 
 now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
@@ -19,6 +18,11 @@ if not os.path.exists(report_path):
 
 # 报告描述
 desc = '用于展示修改样式后的HTMLTestRunner'
+
+#class BaseFlow:
+#    def __init__(self):
+#        self.send_mail = SendEmail()
+
 
 if __name__=='__main__':
     suite = unittest.TestSuite()
