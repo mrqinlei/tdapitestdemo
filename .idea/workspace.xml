@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5b947c9-9cfb-42d9-9a84-0c87935112f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/report/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sendmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sendmail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/用例报告2020-01-06 17:20:54.html" beforeDir="false" />
-    </list>
+    <list default="true" id="c5b947c9-9cfb-42d9-9a84-0c87935112f5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578298454924</updated>
       <workItem from="1578298456075" duration="10048000" />
-      <workItem from="1578366033770" duration="5200000" />
+      <workItem from="1578366033770" duration="5581000" />
     </task>
     <task id="LOCAL-00001" summary="add sendmail">
       <created>1578378526413</created>
@@ -167,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578378526413</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add sendmail">
+      <created>1578381109043</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578381109043</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
