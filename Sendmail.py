@@ -13,9 +13,9 @@ class SendEmail:
     def send_mail(self):
         # 第三方 SMTP 服务
         mail_host = "smtp.163.com"  # 设置服务器
-        mail_user = "amazing_qinlei@163.com"  # 用户名
-        mail_pass = "QWERTY1234"  # 口令,QQ里面的授权码
-        receivers = ['373912677@qq.com', 'amazing_qinlei@163.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
+        mail_user = "****@163.com"  # 用户名
+        mail_pass = "****"  # 口令,QQ里面的授权码
+        receivers = ['***@qq.com', '***i@163.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
 
         msg = MIMEMultipart()  # 创建一个带附件的实例
         msg["Subject"] = "测试报告，详情请见附件"
@@ -23,7 +23,7 @@ class SendEmail:
         msg["To"] = ','.join(receivers)
 
         # ---文字部分---
-        part = MIMEText("阿肥请查收，谢谢！")
+        part = MIMEText("请查收，谢谢！")
         msg.attach(part)
 
         # ---附件部分---
