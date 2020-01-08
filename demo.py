@@ -8,9 +8,9 @@ class TestRun(unittest.TestCase):
         self.run_main1 = RunMain()
 
     def test_01(self):
-        url = "http://106.75.9.19:88/active/get_info"
-        params = {"pid": "1"}
-        res = self.run_main1.run_main("get", url,params)
+        url = ""
+        data = {"pid": "1"}
+        res = self.run_main1.run_main("get", url,data)
         print(res)
         print(type(res))
         self.assertIn('"code": "0"',res)
