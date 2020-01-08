@@ -8,7 +8,7 @@ class RunMain:
         return res
 
     def send_get(self,url,params):
-        result = requests.get(url=url,params=params).json()
+        result = requests.get(url=url,data=data).json()
         res = json.dumps(result,ensure_ascii=False,sort_keys=True,indent=2)
         return res
 
